@@ -1,0 +1,15 @@
+.body {
+    margin: 20px;
+  }
+  
+  .monaliza {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+  }
+  
+  h1{
+  text-align: center ;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;    
+  }
