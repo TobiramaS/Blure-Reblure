@@ -1,4 +1,5 @@
 window.onload = init;
+
 function init() {
   var image = document.getElementById("zero");
   image.onclick = showAnswer;

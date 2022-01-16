@@ -1,15 +1,25 @@
 .body {
-    margin: 20px;
-  }
-  
-  .monaliza {
-    display: block;
-    margin: auto;
-    cursor: pointer;
-  }
-  
-  h1{
-  text-align: center ;
+  margin: 20px;
+}
+
+.foto {
+  cursor: pointer;
+  margin: 20px;
+  height: 400px;
+  width: 350px;
+}
+
+h1 {
+  text-align: center;
   font-style: italic;
-  font-family:'Times New Roman', Times, serif;    
-  }
+  font-family: "Times New Roman", Times, serif;
+}
+
+.div {
+  text-align: center;
+  border: 5px solid rgba(134, 65, 0, 0.726);
+  border-radius: 5px;
+  width: 22%;
+  margin-left: 40%;
+  background-color: bisque;
+}
