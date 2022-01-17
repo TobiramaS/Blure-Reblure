@@ -27,8 +27,14 @@ function showAnswer(eventObj) {
   var name = image.id;
   name = "photo/" + name + ".JPG";
   image.src = name;
+  setTimeout(reblur, 2000, image);
 }
 
+function reblur(image) {
+  var name = image.id;
+  name = "photo/" + name + "blur.jpg";
+  image.src = name;
+}
 
 // function showImageZero() {
 //   var image0 = document.getElementById("zero");
